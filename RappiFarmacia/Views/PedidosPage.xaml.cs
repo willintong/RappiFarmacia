@@ -16,5 +16,10 @@ namespace RappiFarmacia.Views
         {
             InitializeComponent();
         }
+
+        private async void Ingresar_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ResumenPedidoPage());
+        }
     }
 }

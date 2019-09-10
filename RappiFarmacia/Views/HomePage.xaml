@@ -8,16 +8,20 @@
              Title="Home">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
-            <StackLayout Orientation="Horizontal" Spacing="10"  Padding="40" Margin="55,95,20,10">
-                <Image Source="login1.png" HeightRequest="190" />
-            </StackLayout>
-
-            <Label Text="Bienvenidos a RappiFarma"
-                   TextColor="GreenYellow"
+            <StackLayout Orientation="Vertical" Margin="39,50,30,50" Spacing="80">
+            <Label Text="¡Bienvenidos a RappiFarma!"
+                   TextColor="Black"
                    FontSize="Large"
+                   FontFamily="Montserrat"
                    FontAttributes="Bold"
-                VerticalOptions="Center" 
-                HorizontalOptions="CenterAndExpand" />
+                VerticalOptions="EndAndExpand" 
+                HorizontalOptions="Center" />
+            <Image Source="login1.png" HeightRequest="170"/>
+            <StackLayout Orientation="Horizontal" Spacing="23"  Padding="40" Margin="-30,30,45,21">
+                <Button Padding="20" Margin="1,90,50,220"  CornerRadius="15" Text="Registrarse" Clicked="Registrarse_Click"/>
+                 <Button Padding="20" Margin="12,90,50,220" CornerRadius="15" Text="Iniciar sesion" Clicked="Inicio_Click"/>
+            </StackLayout>
+        </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

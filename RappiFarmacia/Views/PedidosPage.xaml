@@ -6,7 +6,9 @@
              mc:Ignorable="d"
              x:Class="RappiFarmacia.Views.PedidosPage"
              Title="pedidos">
-    <ListView x:Name="ListaElementos">
-        
-    </ListView>
+    <StackLayout Orientation="Vertical">
+        <Button Text="Resumen Pedidos"  VerticalOptions="EndAndExpand"
+                    CornerRadius="15"
+                    Clicked="Ingresar_Clicked"/>
+    </StackLayout>
 </ContentPage>

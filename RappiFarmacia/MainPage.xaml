@@ -9,7 +9,6 @@
     <MasterDetailPage.Master>
         <ContentPage Title="Master">
             <StackLayout Orientation="Vertical">
-                <Button Padding="20" Margin="10" CornerRadius="15" Text="Home" Clicked="Home_Click"/>
                 <Button Padding="20" Margin="10" CornerRadius="15" Text="Domicilio" Clicked="Domicilio_Click"/>
                 <Button Padding="20" Margin="10" CornerRadius="15" Text="Mis pedidos" Clicked="Pedidos_Click"/>
             </StackLayout>
@@ -19,7 +18,7 @@
     <MasterDetailPage.Detail>
         <NavigationPage>
             <x:Arguments>
-                <views:LoginPage/>
+                <views:HomePage/>
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>

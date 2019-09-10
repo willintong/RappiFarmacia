@@ -19,12 +19,6 @@ namespace RappiFarmacia
             InitializeComponent();
         }
 
-        private void Home_Click(object sender, EventArgs e)
-        {
-            Detail = new NavigationPage(new HomePage());
-            IsPresented = false;
-        }
-
         private void Domicilio_Click(object sender, EventArgs e)
         {
             Detail = new NavigationPage(new DomicilioPage());
@@ -34,6 +28,12 @@ namespace RappiFarmacia
         private void Pedidos_Click(object sender, EventArgs e)
         {
             Detail = new NavigationPage(new PedidosPage());
+            IsPresented = false;
+        }
+
+        private void Resumen_Click(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new ResumenPedidoPage());
             IsPresented = false;
         }
     }

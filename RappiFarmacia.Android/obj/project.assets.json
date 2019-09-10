@@ -2006,11 +2006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\willintong.lopez\\Source\\Repos\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
+      "projectUniqueName": "D:\\Desktop\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
       "projectName": "RappiFarmacia.Android",
-      "projectPath": "C:\\Users\\willintong.lopez\\Source\\Repos\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
+      "projectPath": "D:\\Desktop\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
       "packagesPath": "C:\\Users\\willintong.lopez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willintong.lopez\\Source\\Repos\\RappiFarmacia\\RappiFarmacia.Android\\obj\\",
+      "outputPath": "D:\\Desktop\\RappiFarmacia\\RappiFarmacia.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2031,8 +2031,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\willintong.lopez\\Source\\Repos\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj": {
-              "projectPath": "C:\\Users\\willintong.lopez\\Source\\Repos\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj"
+            "D:\\Desktop\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj": {
+              "projectPath": "D:\\Desktop\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj"
             }
           }
         }

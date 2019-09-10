@@ -563,11 +563,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\willintong.lopez\\Source\\Repos\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj",
+      "projectUniqueName": "D:\\Desktop\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj",
       "projectName": "RappiFarmacia",
-      "projectPath": "C:\\Users\\willintong.lopez\\Source\\Repos\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj",
+      "projectPath": "D:\\Desktop\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj",
       "packagesPath": "C:\\Users\\willintong.lopez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willintong.lopez\\Source\\Repos\\RappiFarmacia\\RappiFarmacia\\obj\\",
+      "outputPath": "D:\\Desktop\\RappiFarmacia\\RappiFarmacia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
