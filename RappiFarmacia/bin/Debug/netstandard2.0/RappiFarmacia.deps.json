@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "c2ea495c1dc4b9e5898d3a25cde4fe7c0fc88ebe"
+    "signature": "4c232068632efb9845c69b276eec146d58d25bf3"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,7 +11,9 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "4.1.0.555618"
+          "Xamarin.Forms": "4.2.0.709249",
+          "Xamarin.Forms.GoogleMaps": "3.2.1",
+          "Xamarin.Forms.Maps": "4.2.0.709249"
         },
         "runtime": {
           "RappiFarmacia.dll": {}
@@ -42,19 +44,41 @@
           }
         }
       },
-      "Xamarin.Forms/4.1.0.555618": {
+      "Xamarin.Forms/4.2.0.709249": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.1.0.267"
+            "fileVersion": "4.2.0.75"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.1.0.267"
+            "fileVersion": "4.2.0.75"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.1.0.267"
+            "fileVersion": "4.2.0.75"
+          }
+        }
+      },
+      "Xamarin.Forms.GoogleMaps/3.2.1": {
+        "dependencies": {
+          "Xamarin.Forms": "4.2.0.709249"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "Xamarin.Forms.Maps/4.2.0.709249": {
+        "dependencies": {
+          "Xamarin.Forms": "4.2.0.709249"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.2.0.75"
           }
         }
       }
@@ -94,12 +118,26 @@
       "path": "xamarin.essentials/1.1.0",
       "hashPath": "xamarin.essentials.1.1.0.nupkg.sha512"
     },
-    "Xamarin.Forms/4.1.0.555618": {
+    "Xamarin.Forms/4.2.0.709249": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eZHy/yCrKhu3WUI1oszz8Hvq8iC+wQyokEVkzlSmNJD6xa2pGLq5UjOgpXEWu7zKPaoZ5c70SrTv1BBZE+Je1A==",
-      "path": "xamarin.forms/4.1.0.555618",
-      "hashPath": "xamarin.forms.4.1.0.555618.nupkg.sha512"
+      "sha512": "sha512-3DWqPSn9kSKJW5mwjmICV/+4IpPQrequEN1VXUhsF0i9KKnfj49jFk9VbJnT9o2aesJAk00NED67XPbSmbxKjw==",
+      "path": "xamarin.forms/4.2.0.709249",
+      "hashPath": "xamarin.forms.4.2.0.709249.nupkg.sha512"
+    },
+    "Xamarin.Forms.GoogleMaps/3.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o1FwiP84F6VGfz9mZni/httB4WL05PHT5dhqyUiTya1RWQYHASOEN2c/zsC1enq2ilkuPziuvUcInSp244CnLQ==",
+      "path": "xamarin.forms.googlemaps/3.2.1",
+      "hashPath": "xamarin.forms.googlemaps.3.2.1.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/4.2.0.709249": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8M51wiiHj1PvwXDsihIFE48dBT4RFBvL+11xUYQLi0s2elwq52aAYwrsvC53rLNaJY4DpFM0Cra/0pWgSmUabA==",
+      "path": "xamarin.forms.maps/4.2.0.709249",
+      "hashPath": "xamarin.forms.maps.4.2.0.709249.nupkg.sha512"
     }
   }
 }

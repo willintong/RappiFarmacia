@@ -21,5 +21,26 @@ namespace RappiFarmacia.Views
         {
             await Navigation.PushAsync(new ResumenPedidoPage());
         }
+
+        private async void Producto_Click(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PedidosPage());
+
+        }
+
+        private async void ProductoOne_Click(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ListaProductPage());
+        }
+
+        private async void ProductoTwo_Click(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ListaProductPage());
+        }
+
+        private async void ProductoThre_Click(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ListaProductPage());
+        }
     }
 }

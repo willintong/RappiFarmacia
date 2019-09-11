@@ -11,8 +11,9 @@
         <Entry FontSize="Large" Placeholder="Usuario" x:Name="TextUsuario" MaxLength="10"/>
         <Entry FontSize="Large" Placeholder="Password" IsEnabled="True" x:Name="TextPassword" IsPassword="True" MaxLength="10"/>
         <Button Text="Ingresar"
+                Margin="0,0,50,0"
                     VerticalOptions="EndAndExpand"
-                    CornerRadius="15"
+                    CornerRadius="12"
                     Clicked="Ingresar_Clicked"/>
     </StackLayout>
 </ContentPage>

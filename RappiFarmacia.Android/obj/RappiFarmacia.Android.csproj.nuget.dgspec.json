@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj": {}
+    "C:\\Users\\Diana -_-\\Documents\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj": {
+    "C:\\Users\\Diana -_-\\Documents\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Diana -_-\\Documents\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
         "projectName": "RappiFarmacia.Android",
-        "projectPath": "D:\\Desktop\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
-        "packagesPath": "C:\\Users\\willintong.lopez\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\RappiFarmacia\\RappiFarmacia.Android\\obj\\",
+        "projectPath": "C:\\Users\\Diana -_-\\Documents\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
+        "packagesPath": "C:\\Users\\Diana -_-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Diana -_-\\Documents\\RappiFarmacia\\RappiFarmacia.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\willintong.lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Diana -_-\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\Desktop\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj": {
-                "projectPath": "D:\\Desktop\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj"
+              "C:\\Users\\Diana -_-\\Documents\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj": {
+                "projectPath": "C:\\Users\\Diana -_-\\Documents\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj"
               }
             }
           }
@@ -76,27 +76,35 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.1.0.555618, )"
+              "version": "[4.2.0.709249, )"
+            },
+            "Xamarin.Forms.GoogleMaps": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[4.2.0.709249, )"
             }
           }
         }
       }
     },
-    "D:\\Desktop\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj": {
+    "C:\\Users\\Diana -_-\\Documents\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj",
+        "projectUniqueName": "C:\\Users\\Diana -_-\\Documents\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj",
         "projectName": "RappiFarmacia",
-        "projectPath": "D:\\Desktop\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj",
-        "packagesPath": "C:\\Users\\willintong.lopez\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\RappiFarmacia\\RappiFarmacia\\obj\\",
+        "projectPath": "C:\\Users\\Diana -_-\\Documents\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj",
+        "packagesPath": "C:\\Users\\Diana -_-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Diana -_-\\Documents\\RappiFarmacia\\RappiFarmacia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\willintong.lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Diana -_-\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -133,7 +141,15 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.1.0.555618, )"
+              "version": "[4.2.0.709249, )"
+            },
+            "Xamarin.Forms.GoogleMaps": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[4.2.0.709249, )"
             }
           },
           "imports": [

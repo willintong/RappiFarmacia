@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RappiFarmacia.Android", "RappiFarmacia.Android\RappiFarmacia.Android.csproj", "{2866247F-C48C-452A-87C2-8EC6252459FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RappiFarmacia", "RappiFarmacia\RappiFarmacia.csproj", "{98D2CE88-12D6-4861-8704-8991999B14F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RappiFarmacia", "RappiFarmacia\RappiFarmacia.csproj", "{98D2CE88-12D6-4861-8704-8991999B14F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RappiFarmacia.Domain", "..\RappiFarmacia.Domain\RappiFarmacia.Domain.csproj", "{1053C154-1549-4ED0-9C0A-B33936966B9E}"
 EndProject
