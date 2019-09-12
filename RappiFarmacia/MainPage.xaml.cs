@@ -33,7 +33,7 @@ namespace RappiFarmacia
 
         private void Resumen_Click(object sender, EventArgs e)
         {
-            Detail = new NavigationPage(new ResumenPedidoPage());
+            Detail = new NavigationPage(new PedidosPage());
             IsPresented = false;
         }
     }

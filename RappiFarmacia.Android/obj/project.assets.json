@@ -2233,24 +2233,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Diana -_-\\.nuget\\packages\\": {},
+    "C:\\Users\\willintong.lopez\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Diana -_-\\Documents\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
+      "projectUniqueName": "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
       "projectName": "RappiFarmacia.Android",
-      "projectPath": "C:\\Users\\Diana -_-\\Documents\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
-      "packagesPath": "C:\\Users\\Diana -_-\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Diana -_-\\Documents\\RappiFarmacia\\RappiFarmacia.Android\\obj\\",
+      "projectPath": "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
+      "packagesPath": "C:\\Users\\willintong.lopez\\.nuget\\packages\\",
+      "outputPath": "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Diana -_-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\willintong.lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2264,8 +2264,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Diana -_-\\Documents\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj": {
-              "projectPath": "C:\\Users\\Diana -_-\\Documents\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj"
+            "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia\\RappiFarmacia.csproj": {
+              "projectPath": "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia\\RappiFarmacia.csproj"
             }
           }
         }

@@ -5,7 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="RappiFarmacia.Views.LoginPage"
-             Title="Login">
+             Title="Login"
+             NavigationPage.HasNavigationBar="False">
     <StackLayout Orientation="Vertical" Margin="55,120,50,140" Spacing="10">
         <Image Source="login1.png" HeightRequest="100"/>
         <Entry FontSize="Large" Placeholder="Usuario" x:Name="TextUsuario" MaxLength="10"/>

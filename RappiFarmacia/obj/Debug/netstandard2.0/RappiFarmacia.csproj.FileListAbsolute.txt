@@ -49,3 +49,20 @@ C:\Users\Diana -_-\Documents\RappiFarmacia\RappiFarmacia\obj\Debug\netstandard2.
 C:\Users\Diana -_-\Documents\RappiFarmacia\RappiFarmacia\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Diana -_-\Documents\RappiFarmacia\RappiFarmacia\obj\Debug\netstandard2.0\RappiFarmacia.csprojAssemblyReference.cache
 C:\Users\Diana -_-\Documents\RappiFarmacia\RappiFarmacia\obj\Debug\netstandard2.0\Views\ListaProductPage.xaml.g.cs
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\bin\Debug\netstandard2.0\RappiFarmacia.deps.json
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\bin\Debug\netstandard2.0\RappiFarmacia.dll
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\bin\Debug\netstandard2.0\RappiFarmacia.pdb
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\obj\Debug\netstandard2.0\Views\DomicilioPage.xaml.g.cs
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\obj\Debug\netstandard2.0\RappiFarmacia.csproj.CoreCompileInputs.cache
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\obj\Debug\netstandard2.0\RappiFarmacia.AssemblyInfoInputs.cache
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\obj\Debug\netstandard2.0\RappiFarmacia.AssemblyInfo.cs
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\obj\Debug\netstandard2.0\RappiFarmacia.dll
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\obj\Debug\netstandard2.0\RappiFarmacia.pdb
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\obj\Debug\netstandard2.0\Views\PerfilPage.xaml.g.cs
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\obj\Debug\netstandard2.0\RappiFarmacia.csprojAssemblyReference.cache
+D:\Desktop\nuevorappifarmacia\RappiFarmacia\obj\Debug\netstandard2.0\Views\ProductsPage.xaml.g.cs

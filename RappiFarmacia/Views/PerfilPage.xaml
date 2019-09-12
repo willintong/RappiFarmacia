@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="RappiFarmacia.Views.PedidosPage"
+             Title="Perfil">
+
+    <StackLayout Orientation="Vertical">
+        <StackLayout Orientation="Vertical" >
+            <Image Source="login1.png" 
+                   Margin="39,30,30,30"/>
+
+            <Label Text="Usuario" 
+                   HorizontalOptions="Center"
+                   TextColor="Black"
+                   FontSize="Large"
+                   FontFamily="Montserrat"
+                   FontAttributes="Bold"
+                VerticalOptions="EndAndExpand"
+                   Margin="12,10,30,10"/>
+
+            <Label Text="Créditos"
+                   Margin="12,10,30,10"
+                   TextColor="Black"
+                   FontSize="Large"
+                   FontFamily="Montserrat"
+                   FontAttributes="Bold"/>
+
+            <Label Text="Mis Favoritos"
+                   Margin="12"
+                   TextColor="Black"
+                   FontSize="Large"
+                   FontFamily="Montserrat"
+                   FontAttributes="Bold"/>
+
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Button WidthRequest="60" 
+                        HeightRequest="20" 
+                        HorizontalOptions="Start" 
+                        BackgroundColor="Red"
+                        Margin="25,0,0,0"
+                        Clicked="ProductoOne_Click"/>
+                <Button WidthRequest="60"
+                        HeightRequest="20" 
+                        HorizontalOptions="Center" 
+                        Margin="25,0,0,0"
+                        BackgroundColor="Yellow"
+                        Clicked="ProductoTwo_Click"/>
+                <Button WidthRequest="60" 
+                        HeightRequest="20" 
+                        Margin="25,0,0,0" 
+                        HorizontalOptions="End"
+                        BackgroundColor="Green"
+                        Clicked="ProductoThre_Click"/>
+            </StackLayout>
+
+            <Button Text="Resumen Pedidos"  
+                    VerticalOptions="EndAndExpand"
+                    CornerRadius="25"
+                    Clicked="Producto_Click"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

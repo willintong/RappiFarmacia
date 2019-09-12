@@ -18,7 +18,7 @@
     <MasterDetailPage.Detail>
         <NavigationPage>
             <x:Arguments>
-                <views:HomePage/>
+                <views:ProductsPage Title="Domicilios"/>
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>

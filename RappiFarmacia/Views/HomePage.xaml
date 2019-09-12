@@ -5,23 +5,22 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="RappiFarmacia.Views.HomePage"
-             Title="Home">
-    <ContentPage.Content>
-        <StackLayout Orientation="Vertical" Spacing="10">
+             Title="Home"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout Orientation="Vertical" Spacing="10">
             <StackLayout Orientation="Vertical" Margin="39,50,30,50" Spacing="80">
-            <Label Text="¡Bienvenidos a RappiFarma!"
+                <Label Text="¡Bienvenidos a RappiFarma!"
                    TextColor="Black"
                    FontSize="Large"
                    FontFamily="Montserrat"
                    FontAttributes="Bold"
                 VerticalOptions="EndAndExpand" 
                 HorizontalOptions="Center" />
-            <Image Source="login1.png" HeightRequest="170"/>
-            <StackLayout Orientation="Horizontal" Spacing="23"  Padding="40" Margin="-30,30,45,21">
-                <Button Padding="20" Margin="1,90,50,220"  CornerRadius="15" Text="Registrarse" Clicked="Registrarse_Click"/>
-                 <Button Padding="20" Margin="12,90,50,220" CornerRadius="15" Text="Iniciar sesion" Clicked="Inicio_Click"/>
+                <Image Source="login1.png" HeightRequest="170"/>
+                <StackLayout Orientation="Horizontal" Spacing="23"  Padding="40" Margin="-30,30,45,21">
+                    <Button Padding="20" Margin="1,90,50,220"  CornerRadius="15" Text="Registrarse" Clicked="Registrarse_Click"/>
+                    <Button Padding="20" Margin="12,90,50,220" CornerRadius="15" Text="Iniciar sesion" Clicked="Inicio_Click"/>
+                </StackLayout>
             </StackLayout>
         </StackLayout>
-        </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+    </ContentPage>

@@ -32,7 +32,7 @@ namespace RappiFarmacia.Views
                 return;
             }
 
-            await Navigation.PushAsync(new PedidosPage());
+            await Navigation.PushAsync(new DomicilioPage());
         }
     }
 }
