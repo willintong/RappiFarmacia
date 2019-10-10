@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v9.0": {
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -945,10 +954,25 @@
           "build/MonoAndroid80/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
+      "Parcial.Xamarin.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Parcial.Xamarin.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Parcial.Xamarin.Domain.dll": {}
+        }
+      },
       "RappiFarmacia/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
+          "Parcial.Xamarin.Domain": "1.0.0",
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.Forms": "4.2.0.709249",
           "Xamarin.Forms.GoogleMaps": "3.2.1",
@@ -964,6 +988,36 @@
     }
   },
   "libraries": {
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -2210,6 +2264,11 @@
         "xamarin.googleplayservices.tasks.nuspec"
       ]
     },
+    "Parcial.Xamarin.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Parcial.Xamarin.Domain/Parcial.Xamarin.Domain.csproj",
+      "msbuildProject": "../Parcial.Xamarin.Domain/Parcial.Xamarin.Domain.csproj"
+    },
     "RappiFarmacia/1.0.0": {
       "type": "project",
       "path": "../RappiFarmacia/RappiFarmacia.csproj",
@@ -2239,11 +2298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
+      "projectUniqueName": "D:\\Programacion-movil\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
       "projectName": "RappiFarmacia.Android",
-      "projectPath": "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
+      "projectPath": "D:\\Programacion-movil\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
       "packagesPath": "C:\\Users\\willintong.lopez\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia.Android\\obj\\",
+      "outputPath": "D:\\Programacion-movil\\RappiFarmacia\\RappiFarmacia.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2264,8 +2323,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia\\RappiFarmacia.csproj": {
-              "projectPath": "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia\\RappiFarmacia.csproj"
+            "D:\\Programacion-movil\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj": {
+              "projectPath": "D:\\Programacion-movil\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj"
             }
           }
         }

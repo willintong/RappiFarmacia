@@ -8,12 +8,41 @@
              x:Class="RappiFarmacia.Views.DomicilioPage"
              Title="domicilio">
     <StackLayout>
-        
-        <maps:Map />
-        <Button Text="Ver perfil"
-                 CornerRadius="15"
-                Clicked="Perfil_Click"/>
+        <ListView x:Name="lsvProductos" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+
+                            <Image Source="{Binding image}" Grid.Column="0" Grid.RowSpan="2" WidthRequest="50" HeightRequest="100"/>
+
+                            <Label Text="{Binding code}" Grid.Column="1" Grid.Row="0" />
+                            <Label Text="{Binding name}" Grid.Column="1" Grid.Row="1" />
+                            <Label Text="{Binding salePrice}" Grid.Column="1" Grid.Row="2" />
+                            <Label Text="{Binding purchasePrice}" Grid.Column="1" Grid.Row="3" />
+                            <Label Text="{Binding stock}" Grid.Column="1" Grid.Row="1" />
+                          
+
+                            <Entry Grid.Column="2" Grid.RowSpan="2" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Ver resumen" />
     </StackLayout>
-
-
 </ContentPage>

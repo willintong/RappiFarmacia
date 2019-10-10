@@ -1,17 +1,75 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj": {}
+    "D:\\Programacion-movil\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj": {
+    "D:\\Programacion-movil\\RappiFarmacia\\Parcial.Xamarin.Domain\\Parcial.Xamarin.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
-        "projectName": "RappiFarmacia.Android",
-        "projectPath": "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
+        "projectUniqueName": "D:\\Programacion-movil\\RappiFarmacia\\Parcial.Xamarin.Domain\\Parcial.Xamarin.Domain.csproj",
+        "projectName": "Parcial.Xamarin.Domain",
+        "projectPath": "D:\\Programacion-movil\\RappiFarmacia\\Parcial.Xamarin.Domain\\Parcial.Xamarin.Domain.csproj",
         "packagesPath": "C:\\Users\\willintong.lopez\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia.Android\\obj\\",
+        "outputPath": "D:\\Programacion-movil\\RappiFarmacia\\Parcial.Xamarin.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\willintong.lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Programacion-movil\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programacion-movil\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
+        "projectName": "RappiFarmacia.Android",
+        "projectPath": "D:\\Programacion-movil\\RappiFarmacia\\RappiFarmacia.Android\\RappiFarmacia.Android.csproj",
+        "packagesPath": "C:\\Users\\willintong.lopez\\.nuget\\packages\\",
+        "outputPath": "D:\\Programacion-movil\\RappiFarmacia\\RappiFarmacia.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +90,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia\\RappiFarmacia.csproj": {
-                "projectPath": "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia\\RappiFarmacia.csproj"
+              "D:\\Programacion-movil\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj": {
+                "projectPath": "D:\\Programacion-movil\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj"
               }
             }
           }
@@ -90,14 +148,14 @@
         }
       }
     },
-    "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia\\RappiFarmacia.csproj": {
+    "D:\\Programacion-movil\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia\\RappiFarmacia.csproj",
+        "projectUniqueName": "D:\\Programacion-movil\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj",
         "projectName": "RappiFarmacia",
-        "projectPath": "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia\\RappiFarmacia.csproj",
+        "projectPath": "D:\\Programacion-movil\\RappiFarmacia\\RappiFarmacia\\RappiFarmacia.csproj",
         "packagesPath": "C:\\Users\\willintong.lopez\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\nuevorappifarmacia\\RappiFarmacia\\obj\\",
+        "outputPath": "D:\\Programacion-movil\\RappiFarmacia\\RappiFarmacia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -117,7 +175,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Programacion-movil\\RappiFarmacia\\Parcial.Xamarin.Domain\\Parcial.Xamarin.Domain.csproj": {
+                "projectPath": "D:\\Programacion-movil\\RappiFarmacia\\Parcial.Xamarin.Domain\\Parcial.Xamarin.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -134,6 +196,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

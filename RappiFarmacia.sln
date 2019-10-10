@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RappiFarmacia", "RappiFarma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RappiFarmacia.Domain", "..\RappiFarmacia.Domain\RappiFarmacia.Domain.csproj", "{1053C154-1549-4ED0-9C0A-B33936966B9E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{5C7BA025-BF7B-4725-B41A-FFEB76D865D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcial.Xamarin.Domain", "Parcial.Xamarin.Domain\Parcial.Xamarin.Domain.csproj", "{AD5794BD-0D77-438A-B3AE-AF81E3E99CC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front", "Front", "{D7BF4539-4176-4DF6-9475-6BFC97E1F049}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,9 +37,18 @@ Global
 		{1053C154-1549-4ED0-9C0A-B33936966B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1053C154-1549-4ED0-9C0A-B33936966B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1053C154-1549-4ED0-9C0A-B33936966B9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5794BD-0D77-438A-B3AE-AF81E3E99CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5794BD-0D77-438A-B3AE-AF81E3E99CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5794BD-0D77-438A-B3AE-AF81E3E99CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5794BD-0D77-438A-B3AE-AF81E3E99CC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2866247F-C48C-452A-87C2-8EC6252459FD} = {D7BF4539-4176-4DF6-9475-6BFC97E1F049}
+		{98D2CE88-12D6-4861-8704-8991999B14F0} = {D7BF4539-4176-4DF6-9475-6BFC97E1F049}
+		{AD5794BD-0D77-438A-B3AE-AF81E3E99CC7} = {5C7BA025-BF7B-4725-B41A-FFEB76D865D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {811E634D-B5D2-4135-938F-99C5235DB16A}

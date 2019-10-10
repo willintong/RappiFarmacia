@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RappiFarmacia.servicio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,7 @@ namespace RappiFarmacia.Views
         public DomicilioPage()
         {
             InitializeComponent();
+            lsvProductos.ItemsSource = ProductoService.GetProductos();
         }
 
         private async void Perfil_Click(object sender, EventArgs e)
