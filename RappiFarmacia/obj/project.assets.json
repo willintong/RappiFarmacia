@@ -35,6 +35,20 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Plugin.Multilingual/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/netstandard1.0/Plugin.Multilingual.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.Multilingual.Abstractions.dll": {},
+          "lib/netstandard1.0/Plugin.Multilingual.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -44,7 +58,7 @@
           "lib/netstandard2.0/System.Numerics.Vectors.dll": {}
         }
       },
-      "Xamarin.Essentials/1.1.0": {
+      "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -56,7 +70,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.709249": {
+      "Xamarin.Forms/4.2.0.848062": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -85,10 +99,10 @@
           "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll": {}
         }
       },
-      "Xamarin.Forms.Maps/4.2.0.709249": {
+      "Xamarin.Forms.Maps/4.2.0.848062": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "4.2.0.709249"
+          "Xamarin.Forms": "4.2.0.848062"
         },
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {}
@@ -286,6 +300,66 @@
         "newtonsoft.json.nuspec"
       ]
     },
+    "Plugin.Multilingual/1.0.2": {
+      "sha512": "aDPTIQCOCGxCvcFs98nSswcFTHfHUpUSiSltobV5NoRELUQREl4n95dLZSuqey9cIb5G2Ni53YDG6KCnD9ZWYw==",
+      "type": "package",
+      "path": "plugin.multilingual/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/net45/Helpers/TranslateExtension.txt.pp",
+        "content/netstandard1.0/Helpers/TranslateExtension.txt.pp",
+        "lib/MonoAndroid10/Plugin.Multilingual.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Multilingual.Abstractions.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Multilingual.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Multilingual.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Multilingual.XML",
+        "lib/MonoAndroid10/Plugin.Multilingual.dll",
+        "lib/MonoAndroid10/Plugin.Multilingual.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Multilingual.pdb",
+        "lib/UAP10/Plugin.Multilingual.Abstractions.dll",
+        "lib/UAP10/Plugin.Multilingual.Abstractions.pdb",
+        "lib/UAP10/Plugin.Multilingual.Abstractions.xml",
+        "lib/UAP10/Plugin.Multilingual.XML",
+        "lib/UAP10/Plugin.Multilingual.dll",
+        "lib/UAP10/Plugin.Multilingual.pdb",
+        "lib/UAP10/Plugin.Multilingual.pri",
+        "lib/Xamarin.Mac20/Plugin.Multilingual.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.Multilingual.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.Multilingual.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.Multilingual.dll",
+        "lib/Xamarin.iOS10/Plugin.Multilingual.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Multilingual.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Multilingual.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Multilingual.XML",
+        "lib/Xamarin.iOS10/Plugin.Multilingual.dll",
+        "lib/XamarinTVOS/Plugin.Multilingual.Abstractions.dll",
+        "lib/XamarinTVOS/Plugin.Multilingual.Abstractions.dll.mdb",
+        "lib/XamarinTVOS/Plugin.Multilingual.Abstractions.pdb",
+        "lib/XamarinTVOS/Plugin.Multilingual.Abstractions.xml",
+        "lib/XamarinTVOS/Plugin.Multilingual.dll",
+        "lib/XamarinTVOS/Plugin.Multilingual.pdb",
+        "lib/XamarinWatchOS/Plugin.Multilingual.Abstractions.dll",
+        "lib/XamarinWatchOS/Plugin.Multilingual.Abstractions.dll.mdb",
+        "lib/XamarinWatchOS/Plugin.Multilingual.Abstractions.pdb",
+        "lib/XamarinWatchOS/Plugin.Multilingual.Abstractions.xml",
+        "lib/XamarinWatchOS/Plugin.Multilingual.dll",
+        "lib/XamarinWatchOS/Plugin.Multilingual.pdb",
+        "lib/net45/Plugin.Multilingual.Abstractions.dll",
+        "lib/net45/Plugin.Multilingual.Abstractions.pdb",
+        "lib/net45/Plugin.Multilingual.Abstractions.xml",
+        "lib/net45/Plugin.Multilingual.dll",
+        "lib/net45/Plugin.Multilingual.pdb",
+        "lib/netstandard1.0/Plugin.Multilingual.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Multilingual.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Multilingual.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Multilingual.deps.json",
+        "lib/netstandard1.0/Plugin.Multilingual.dll",
+        "lib/netstandard1.0/Plugin.Multilingual.xml",
+        "plugin.multilingual.1.0.2.nupkg.sha512",
+        "plugin.multilingual.nuspec"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -333,10 +407,10 @@
         "version.txt"
       ]
     },
-    "Xamarin.Essentials/1.1.0": {
-      "sha512": "W0XOt1dNMAE2POcsVotoKDDy5FdAOnR0qULKl6WI4kQEMxQ1sp84DsSU5iacV7oQUMuPhUBAm/3ywks0HO1QrQ==",
+    "Xamarin.Essentials/1.3.1": {
+      "sha512": "+51728AdZ/qtABGvcIaNXgEoL2jAtxAXLHS8PvGCP0pb6n7twBqYpfgkmwHYVgu+U99szgtL+Jot8L+OXorPcA==",
       "type": "package",
-      "path": "xamarin.essentials/1.1.0",
+      "path": "xamarin.essentials/1.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -356,7 +430,6 @@
         "lib/monoandroid81/Xamarin.Essentials.pdb",
         "lib/monoandroid81/Xamarin.Essentials.xml",
         "lib/monoandroid90/Xamarin.Essentials.dll",
-        "lib/monoandroid90/Xamarin.Essentials.dll.mdb",
         "lib/monoandroid90/Xamarin.Essentials.pdb",
         "lib/monoandroid90/Xamarin.Essentials.xml",
         "lib/netstandard1.0/Xamarin.Essentials.dll",
@@ -365,6 +438,9 @@
         "lib/netstandard2.0/Xamarin.Essentials.dll",
         "lib/netstandard2.0/Xamarin.Essentials.pdb",
         "lib/netstandard2.0/Xamarin.Essentials.xml",
+        "lib/tizen40/Xamarin.Essentials.dll",
+        "lib/tizen40/Xamarin.Essentials.pdb",
+        "lib/tizen40/Xamarin.Essentials.xml",
         "lib/uap10.0.16299/Xamarin.Essentials.dll",
         "lib/uap10.0.16299/Xamarin.Essentials.pdb",
         "lib/uap10.0.16299/Xamarin.Essentials.pri",
@@ -372,15 +448,21 @@
         "lib/xamarinios10/Xamarin.Essentials.dll",
         "lib/xamarinios10/Xamarin.Essentials.pdb",
         "lib/xamarinios10/Xamarin.Essentials.xml",
+        "lib/xamarintvos10/Xamarin.Essentials.dll",
+        "lib/xamarintvos10/Xamarin.Essentials.pdb",
+        "lib/xamarintvos10/Xamarin.Essentials.xml",
+        "lib/xamarinwatchos10/Xamarin.Essentials.dll",
+        "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
+        "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.1.0.nupkg.sha512",
+        "xamarin.essentials.1.3.1.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.2.0.709249": {
-      "sha512": "3DWqPSn9kSKJW5mwjmICV/+4IpPQrequEN1VXUhsF0i9KKnfj49jFk9VbJnT9o2aesJAk00NED67XPbSmbxKjw==",
+    "Xamarin.Forms/4.2.0.848062": {
+      "sha512": "/JIC5p3M9h0MdSg+uH3Hy260YIWkXrQA8m4yO/3TQhSSIe+FNwyPi0SkIomvikunWXu6rEJh/aDbFYEyks0mbw==",
       "type": "package",
-      "path": "xamarin.forms/4.2.0.709249",
+      "path": "xamarin.forms/4.2.0.848062",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -619,7 +701,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.2.0.709249.nupkg.sha512",
+        "xamarin.forms.4.2.0.848062.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -643,10 +725,10 @@
         "xamarin.forms.googlemaps.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/4.2.0.709249": {
-      "sha512": "8M51wiiHj1PvwXDsihIFE48dBT4RFBvL+11xUYQLi0s2elwq52aAYwrsvC53rLNaJY4DpFM0Cra/0pWgSmUabA==",
+    "Xamarin.Forms.Maps/4.2.0.848062": {
+      "sha512": "29oyFTBa+19gsq+c9WiaMKEyEsdPs1Q4KdwmbdTIFvpt+d37qRLPS72P3FYhUeHfFSvbpTa7ho6KCNoiydQHVg==",
       "type": "package",
-      "path": "xamarin.forms.maps/4.2.0.709249",
+      "path": "xamarin.forms.maps/4.2.0.848062",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -672,7 +754,7 @@
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
         "lib/uap10.0/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.4.2.0.709249.nupkg.sha512",
+        "xamarin.forms.maps.4.2.0.848062.nupkg.sha512",
         "xamarin.forms.maps.nuspec"
       ]
     },
@@ -687,10 +769,11 @@
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.2",
       "Parcial.Xamarin.Domain >= 1.0.0",
-      "Xamarin.Essentials >= 1.1.0",
-      "Xamarin.Forms >= 4.2.0.709249",
+      "Plugin.Multilingual >= 1.0.2",
+      "Xamarin.Essentials >= 1.3.1",
+      "Xamarin.Forms >= 4.2.0.848062",
       "Xamarin.Forms.GoogleMaps >= 3.2.1",
-      "Xamarin.Forms.Maps >= 4.2.0.709249"
+      "Xamarin.Forms.Maps >= 4.2.0.848062"
     ]
   },
   "packageFolders": {
@@ -751,13 +834,17 @@
             "target": "Package",
             "version": "[12.0.2, )"
           },
+          "Plugin.Multilingual": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.1.0, )"
+            "version": "[1.3.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.2.0.709249, )"
+            "version": "[4.2.0.848062, )"
           },
           "Xamarin.Forms.GoogleMaps": {
             "target": "Package",
@@ -765,14 +852,20 @@
           },
           "Xamarin.Forms.Maps": {
             "target": "Package",
-            "version": "[4.2.0.709249, )"
+            "version": "[4.2.0.848062, )"
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

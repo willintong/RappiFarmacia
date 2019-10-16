@@ -11,7 +11,7 @@ using Xamarin.Forms.Xaml;
 namespace RappiFarmacia.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class DomicilioPage : ContentPage
+    public partial class DomicilioPage: ContentPage
     {
         public DomicilioPage()
         {
@@ -21,7 +21,7 @@ namespace RappiFarmacia.Views
 
         private async void Perfil_Click(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new PedidosPage());
+            await Navigation.PushAsync(new PerfilPage());
         }
     }
 }

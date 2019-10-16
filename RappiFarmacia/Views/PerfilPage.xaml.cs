@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace RappiFarmacia.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PedidosPage
+    public partial class PerfilPage
     {
-        public PedidosPage()
+        public PerfilPage()
         {
             InitializeComponent();
         }
@@ -22,9 +22,9 @@ namespace RappiFarmacia.Views
             await Navigation.PushAsync(new ProductsPage());
         }
 
-        private async void Producto_Click(object sender, EventArgs e)
+        private async void ResumenProducto_Click(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ProductsPage());
+            await Navigation.PushAsync(new DomicilioPage());
 
         }
 

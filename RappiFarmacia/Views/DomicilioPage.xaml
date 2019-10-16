@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              mc:Ignorable="d"
              x:Class="RappiFarmacia.Views.DomicilioPage"
              Title="domicilio">
+    
     <StackLayout>
         <ListView x:Name="lsvProductos" HasUnevenRows="True">
             <ListView.ItemTemplate>
@@ -28,13 +28,13 @@
                                 <RowDefinition />
                             </Grid.RowDefinitions>
 
-                            <Image Source="{Binding image}" Grid.Column="0" Grid.RowSpan="2" WidthRequest="50" HeightRequest="100"/>
+                            <Image Source="{Binding image}" Grid.Column="0" Grid.RowSpan="5" WidthRequest="50" HeightRequest="100"/>
 
                             <Label Text="{Binding code}" Grid.Column="1" Grid.Row="0" />
                             <Label Text="{Binding name}" Grid.Column="1" Grid.Row="1" />
                             <Label Text="{Binding salePrice}" Grid.Column="1" Grid.Row="2" />
                             <Label Text="{Binding purchasePrice}" Grid.Column="1" Grid.Row="3" />
-                            <Label Text="{Binding stock}" Grid.Column="1" Grid.Row="1" />
+                            <Label Text="{Binding stock}" Grid.Column="1" Grid.Row="4" />
                           
 
                             <Entry Grid.Column="2" Grid.RowSpan="2" />
@@ -43,6 +43,6 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button Text="Ver resumen" />
+        <Button Text="Ver resumen" Clicked="Perfil_Click" />
     </StackLayout>
 </ContentPage>

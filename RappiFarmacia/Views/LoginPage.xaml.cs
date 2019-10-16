@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RappiFarmacia.Resources;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,19 +16,20 @@ namespace RappiFarmacia.Views
         public LoginPage()
         {
             InitializeComponent();
+           
         }
         private async void Ingresar_Clicked(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(TextUsuario.Text))
             {
-                await DisplayAlert("Validación", "El nombre de usuario es requerido", "OK");
+                await DisplayAlert("Validación", "El_nombre_de_usuario_es_requerido", "OK");
                 TextUsuario.Focus();
                 return;
             }
 
             if (string.IsNullOrEmpty(TextPassword.Text))
             {
-                await DisplayAlert("Validación", "La contraseña es requerida", "OK");
+                await DisplayAlert("Validación", "La_contraseña_es_requerida", "OK");
                 TextPassword.Focus();
                 return;
             }

@@ -1,8 +1,8 @@
 D:\Programacion-movil\RappiFarmacia\Parcial.Xamarin.Domain\bin\Debug\netstandard2.0\Parcial.Xamarin.Domain.deps.json
 D:\Programacion-movil\RappiFarmacia\Parcial.Xamarin.Domain\bin\Debug\netstandard2.0\Parcial.Xamarin.Domain.dll
 D:\Programacion-movil\RappiFarmacia\Parcial.Xamarin.Domain\bin\Debug\netstandard2.0\Parcial.Xamarin.Domain.pdb
-D:\Programacion-movil\RappiFarmacia\Parcial.Xamarin.Domain\obj\Debug\netstandard2.0\Parcial.Xamarin.Domain.csproj.CoreCompileInputs.cache
 D:\Programacion-movil\RappiFarmacia\Parcial.Xamarin.Domain\obj\Debug\netstandard2.0\Parcial.Xamarin.Domain.AssemblyInfoInputs.cache
 D:\Programacion-movil\RappiFarmacia\Parcial.Xamarin.Domain\obj\Debug\netstandard2.0\Parcial.Xamarin.Domain.AssemblyInfo.cs
 D:\Programacion-movil\RappiFarmacia\Parcial.Xamarin.Domain\obj\Debug\netstandard2.0\Parcial.Xamarin.Domain.dll
 D:\Programacion-movil\RappiFarmacia\Parcial.Xamarin.Domain\obj\Debug\netstandard2.0\Parcial.Xamarin.Domain.pdb
+D:\Programacion-movil\RappiFarmacia\Parcial.Xamarin.Domain\obj\Debug\netstandard2.0\Parcial.Xamarin.Domain.csprojAssemblyReference.cache

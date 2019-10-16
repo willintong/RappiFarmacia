@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RappiFarmacia.Domain", "..\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{5C7BA025-BF7B-4725-B41A-FFEB76D865D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcial.Xamarin.Domain", "Parcial.Xamarin.Domain\Parcial.Xamarin.Domain.csproj", "{AD5794BD-0D77-438A-B3AE-AF81E3E99CC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parcial.Xamarin.Domain", "Parcial.Xamarin.Domain\Parcial.Xamarin.Domain.csproj", "{AD5794BD-0D77-438A-B3AE-AF81E3E99CC7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front", "Front", "{D7BF4539-4176-4DF6-9475-6BFC97E1F049}"
 EndProject

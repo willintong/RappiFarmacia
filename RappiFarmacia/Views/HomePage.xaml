@@ -3,24 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+              xmlns:i18n="clr-namespace:RappiFarmacia.helpers"
              mc:Ignorable="d"
-             x:Class="RappiFarmacia.Views.HomePage"
-             Title="Home"
-             NavigationPage.HasNavigationBar="False">
+             x:Class="RappiFarmacia.Views.HomePage">
     <StackLayout Orientation="Vertical" Spacing="10">
-            <StackLayout Orientation="Vertical" Margin="39,50,30,50" Spacing="80">
-                <Label Text="¡Bienvenidos a RappiFarma!"
+        <StackLayout Orientation="Vertical" Margin="39,50,30,50" Spacing="80">
+            <Label Text="{i18n:Translate Bienvenido a RappiFarmacia}"
                    TextColor="Black"
                    FontSize="Large"
                    FontFamily="Montserrat"
                    FontAttributes="Bold"
                 VerticalOptions="EndAndExpand" 
                 HorizontalOptions="Center" />
-                <Image Source="login1.png" HeightRequest="170"/>
-                <StackLayout Orientation="Horizontal" Spacing="23"  Padding="40" Margin="-30,30,45,21">
-                    <Button Padding="20" Margin="1,90,50,220"  CornerRadius="15" Text="Registrarse" Clicked="Registrarse_Click"/>
-                    <Button Padding="20" Margin="12,90,50,220" CornerRadius="15" Text="Iniciar sesion" Clicked="Inicio_Click"/>
-                </StackLayout>
+            <Image Source="login1.png" HeightRequest="170"/>
+            <StackLayout Orientation="Horizontal" Spacing="23"  Padding="40" Margin="-30,30,45,21">
+                <Button Padding="20" Margin="1,90,50,220"  CornerRadius="15" Text="{i18n:Translate Registrarme}"/>
+                <Button Padding="20" Margin="12,90,50,220" CornerRadius="15" Text="{i18n:Translate Iniciar sesion}" Clicked="Inicio_Click"/>
             </StackLayout>
         </StackLayout>
-    </ContentPage>
+    </StackLayout>
+</ContentPage>

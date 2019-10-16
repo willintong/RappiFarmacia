@@ -10,21 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace RappiFarmacia.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class HomePage
+    public partial class HomePage : ContentPage
     {
         public HomePage()
         {
             InitializeComponent();
         }
-
-        private async void Registrarse_Click(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new DomicilioPage());
-        }
-
         private async void Inicio_Click(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new LoginPage());
+
         }
     }
 }

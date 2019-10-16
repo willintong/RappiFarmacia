@@ -12,8 +12,21 @@ namespace RappiFarmacia.servicio
 
         public static List<Producto> GetProductos()
         {
-            var products = ApiHelper.Get<List<Producto>>("/api_inventario/medicamentos");
+            var products = ApiHelper.Get<List<Producto>>("/inventario/medicamentos");
             return products;
+
+        }
+        public static List<Login> GetLogins()
+            {
+            var login = ApiHelper.Get<List<Login>>("/login");
+            return login;
+
+        }
+        public static List<Register> GetRegisters()
+        {
+            var register = ApiHelper.Get<List<Register>>("/register");
+            return register;
+
         }
     }
 }

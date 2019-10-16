@@ -25,7 +25,7 @@ namespace RappiFarmacia.Views
 
         private async void Perfil_Click(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new PedidosPage());
+            await Navigation.PushAsync(new PerfilPage());
         }
     }
 }

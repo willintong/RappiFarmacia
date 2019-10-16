@@ -5,6 +5,8 @@ public class MonoPackageManager_Resources {
 		"RappiFarmacia.Android.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.Multilingual.Abstractions.dll",
+		"Plugin.Multilingual.dll",
 		"RappiFarmacia.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",

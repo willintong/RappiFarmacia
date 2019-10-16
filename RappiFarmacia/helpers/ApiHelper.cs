@@ -13,7 +13,7 @@ namespace RappiFarmacia.helpers
         public static T Get<T>(string url)
         {
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("https://intense-hollows-17067.herokuapp.com");
+            client.BaseAddress = new Uri("https://gateway19.herokuapp.com");
 
             var request = client.GetAsync(url).Result;
             if (request.IsSuccessStatusCode)
@@ -25,6 +25,7 @@ namespace RappiFarmacia.helpers
             }
 
             return default(T);
+
         }
     }
 }

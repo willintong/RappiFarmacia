@@ -11,11 +11,16 @@
             <DataTemplate>
                 <ViewCell>
                     <StackLayout>
-                        <Image HeightRequest="50" WidthRequest="50" Source="{Binding Foto}"></Image>
-                        <Label Text="{Binding Nombre}"></Label>
-                        <Label Text="{Binding Valor }"></Label>
-                    
-                    <StackLayout Orientation="Horizontal">
+                        <Image HeightRequest="50" WidthRequest="50" Source="{Binding image}"></Image>
+
+                        <Label Text="{Binding code}" Grid.Column="1" Grid.Row="0" />
+                        <Label Text="{Binding name}" Grid.Column="1" Grid.Row="1" />
+                        <Label Text="{Binding salePrice}" Grid.Column="1" Grid.Row="2" />
+                        <Label Text="{Binding purchasePrice}" Grid.Column="1" Grid.Row="3" />
+                        <Label Text="{Binding stock}" Grid.Column="1" Grid.Row="4" />
+
+
+                        <StackLayout Orientation="Horizontal">
                     <Button Text="Volver al perfil" Clicked="Perfil_Click"/>
                     </StackLayout>
                     </StackLayout>
